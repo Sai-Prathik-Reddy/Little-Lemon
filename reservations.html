@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="icon" href="./assets/yellow_card.png" type="image/icon type">
+    <link rel="stylesheet" href = ./header.css>
+    <link rel="stylesheet" href = ./reservations.css>
+    <link rel="stylesheet" href = ./footer.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id = "header-container">
+            <img src = "./assets/yellow_single_logo.png" alt = "Little Lemon Logo">
+            <h1>LITTLE LEMON</h1>
+        </div>
+        <nav>
+            <ul id = "nav-list">
+                <li><a class = "nav-anchor" href = "./index.html">Home</a></li>
+                <li><a class = "nav-anchor" href = "./menu.html">Menu</a></li>
+                <li><a class = "nav-anchor" href = "./history.html">AboutUs</a></li>
+                <li><a class = "nav-anchor" href = "./reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="form-heading">Reservation Form</h1> <br/>
+        <div class="body">
+            <form class = "form">
+                <div class="form-row">
+                    <label>Name :</label>
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-row">
+                    <label>Phone No. :</label>
+                    <input type="tel" placeholder="Enter your Number" required/>
+                </div>
+                <div class="form-row">
+                    <label>Number of People :</label>
+                    <input type = "number" placeholder="Enter the number of people" max ="12"required/>
+                </div>
+                <div class="form-row">
+                    <label>Ocation :</label>
+                    <select name = "ocation" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="gettogether">Get Together</option>
+                        <option value="officialmeet">Official Meet</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label>Preferred Cuisine :</label>
+                    <select name = "cuisine" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="italian">Italian</option>
+                        <option value="greek">Greek</option>
+                        <option value="turkish">Turkish</option>
+                        <option value="indian">Indian</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label>Location :</label>
+                    <select name="location">
+                        <option value="" disabled selected>Select</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="stlouis">St Louis</option>
+                        <option value="michigan">Michigan</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label>Date :</label>
+                    <input type="date" placeholder="Enter the date" required/>
+                </div>
+                <div class="form-row">
+                    <label>Time :</label>
+                    <input type="time" placeholder="Time"/>
+                </div>
+                <div class="submitbutton">
+                    <button type="submit">Reserve Table</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id = "footer-container">
+            <img src = "./assets/yellow_single_logo.png" alt = "Little Lemon Logo">
+            <h1>LITTLE LEMON</h1>
+        </div>
+        <div class ="copyright">
+            <ul id = "nav-list">
+                <li><a class = "nav-anchor" href = "./index.html">Home</a></li>
+                <li><a class = "nav-anchor" href = "./menu.html">Menu</a></li>
+                <li><a class = "nav-anchor" href = "./history.html">AboutUs</a></li>
+                <li><a class = "nav-anchor" href = "./reservations.html">Reservations</a></li>
+            </ul>
+            <div id="footer-list">
+                <h3 id = "copyright-text">&#169; Copyright 2025, All Rights Reserved</h3>
+            </div>
+            <ul>
+                <li><a href="https://www.facebook.com"><img class ="social-icons" src = "./assets/Social_Media_Icons/facebook.png"></a></li>
+                <li><a href="https://www.instagram.com"><img class ="social-icons" src = "./assets/Social_Media_Icons/instagram.png"></a></li>
+                <li><a href="https://www.x.com"><img class ="social-icons" src = "./assets/Social_Media_Icons/twitter.png"></a></li>
+                <li><a href="https://www.whatsapp.com"><img class ="social-icons" src = "./assets/Social_Media_Icons/whatsapp.png"></a></li>
+                <li><a href="https://www.youtube.com"><img class ="social-icons" src = "./assets/Social_Media_Icons/youtube.png"></a></li>
+                <li><a href= "mailto:littlelemon@gmail.com"><img class="social-icons" src="./assets/Social_Media_Icons/mail.png"></a></li>
+                <li><a href= "tel:+411234567890"><img class="social-icons" src="./assets/Social_Media_Icons/phone.png"></a></li>
+            </ul>
+            <p class="contact">littlelemon@gmail.com +411234567890</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

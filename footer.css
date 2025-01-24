@@ -1,0 +1,66 @@
+footer{
+    display: flex;
+    direction: row;
+    background-color: #131010;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#footer-container img {
+    height: 5rem;
+    padding-left: 5%;
+}
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 2;
+}
+#footer-container h1 {
+    color: white;
+    font-family: "Bona Nova SC", serif;
+    padding-left: 2%;
+    font-weight: bolder;
+}
+.copyright {
+    flex: 3;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.copyright h3 {
+    color: white;
+    padding-top: 1rem;
+    
+}
+.copyright  .nav-anchor {
+    color: white;
+}
+.social-icons {
+    background-color: white;
+    padding: 0.1rem;
+    border-radius: 100%;
+    height: 2rem;
+}
+.copyright ul {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(1rem, 5%, 2rem);
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    list-style-type: none;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+#footer-list{
+    display: flex;
+    justify-items: center;
+    padding-bottom: 2rem;
+}
+.email{
+    color: white;
+    font-size: large;
+    font-size: 0.8rem;
+}
+.contact {
+    color: white;
+    padding-bottom: 0.5rem;
+}
